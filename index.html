@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function whoseCoding() {
+      document.getElementById("demo").innerHTML = "You are coding!"
+   }
+  </script>
+  <style>
+	html {
+    	font-family: monospace;
+        font-size: 40px;
+        background-color: magenta;
+        color: white;
+  }
+       
+   h2 {
+    	font-weight: bold;
+      font-size: 60px;
+      text-decoration: underline;
+   }
+    
+    button {
+    			   background-color: white;
+             color: black;
+             padding: 10px;
+             outline: none;
+             width: 3.5rem;
+                
+      }
+    
+    .box {
+    		display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+     }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Gues who's coding?</h2>
+    <p id="demo"></p>
+	  <button onclick="whoseCoding()">Whose coding?</button>
+  </div>
+</body>
+</html> 
